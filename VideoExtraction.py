@@ -6,7 +6,7 @@ import datetime
 
 """
 Part of an ongoing "Smart Webcam" project.
-Cuts out any parts of a video that does not have any humans visible.
+Identifies if a video has humans in it and copies it to a specified folder
 
 In the same folder as this file create 3 sub-folders:
     -> humans   # Stores videos of detected humans
